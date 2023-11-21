@@ -9,7 +9,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 
 const App = () => {
-  const [activeIndex, setActiveIndex] = useState(3);
+  const [activeIndex, setActiveIndex] = useState(null);
   console.log(activeIndex)
   switch (activeIndex) {
     case 0:
